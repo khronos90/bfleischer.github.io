@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bruno Fleischer - Web Development</title>
+    <meta name="description" content="Web development and design by Bruno Fleischer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <script src="js/scripts.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <nav id="nav">
+                <ul id="menu-items">
+                    <li><a id="contactA" class="menu-link" href="#contact">Contact</a></li>
+                    <li><a id="worksA" class="menu-link" href="#works">Projects</a></li>
+                    <li><a id="aboutA" class="menu-link" href="#about">About me!</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="btn_menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </header>
+    <div class="false-nav"></div>
+    <div class="container">
+        <div id="container-title">
+            <div class="title-bg">
+                <div id="title">
+                    <span>Web development<br><span style="font-size: 0.8em;"> by </span><br>Bruno Fleischer</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-content">
+        <div id="about" class="content">
+            <div>
+                <h3 class="sub-titulo">About me</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fermentum rutrum sem suscipit euismod. Sed posuere sapien arcu, a condimentum felis ullamcorper non. Sed fringilla tincidunt purus efficitur scelerisque. Fusce et felis blandit,
+                    aliquet velit vel, aliquet nisi. Donec nec fermentum turpis. Curabitur enim massa, lacinia eu pulvinar et, sodales non erat. Nulla fermentum a dui in blandit.</p>
+            </div>
+        </div>
+        <hr class="divisor">
+        <div id="works" class="content">
+            <h3 class="sub-titulo">Projects</h3>
+            <div class="images">
+                <div class="image-container">
+                    <img class="image" src="assets/3.png" alt="">
+                    <p class="image-foot">Final project of PHP & MySQL at <a href="http://www.tallerdeinformatica.edu.uy/" target="_blank">Taller de Informatica</a></p>
+                </div>
+                <div class="image-container">
+                    <img class="image" src="assets/simon.png" alt="">
+                    <p class="image-foot">Simon Game</p>
+                </div>
+                <div class="image-container">
+                    <img class="image" src="assets/calc.png" alt="">
+                    <p class="image-foot">Pure JS Calculator</p>
+                </div>
+                <div class="image-container">
+                    <img class="image" src="assets/1.png" alt="">
+                    <p class="image-foot">Web administration of Cognición Numérica de Facultad de Psicología - UdelaR</p>
+                </div>
+            </div>
+        </div>
+        <hr class="divisor">
+        <div id="contact" class="content">
+            <div>
+                <h3 class="sub-titulo">Contact</h3>
+                <p>Para cualquier tipo de consulta me pueden contactar a través del formulario. Voy a intentar contestar lo más rapido que me sea posible!</p>
+                <form>
+                    <label for="nombre">Name:</label><br>
+                    <input name="nombre" id="nombre" type="text" placeholder="John Doe"><br>
+                    <label for="email">Email:</label><br>
+                    <input name="mail" id="mail" type="email" placeholder="John@mail.com"><br>
+                    <label for="mensaje">Message:</label><br>
+                    <textarea name="mensaje" id="mensaje" placeholder="Write here..."></textarea>
+                    <label for="mandar"></label><br>
+                    <input type="button" name="mandar" id="mandar" value="Enviar">
+                </form>
+            </div>
+        </div>
+        <hr class="divisor">
+
+    </div>
+    <footer>
+        <div class="footer">
+            <ul>
+                <li><i class="fa fa-facebook fa-3x"></i></li>
+                <li><i class="fa fa-github fa-3x"></i></li>
+                <li><i class="fa fa-codepen fa-3x"></i></li>
+                <li><i class="fa fa-free-code-camp fa-3x"></i></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
